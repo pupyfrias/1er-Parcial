@@ -1,0 +1,19 @@
+{
+  "name": "1er-parcial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pupyfrias/1er-Parcial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pupyfrias/1er-Parcial/issues"
+  },
+  "homepage": "https://github.com/pupyfrias/1er-Parcial#readme"
+}
