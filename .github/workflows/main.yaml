@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '20'
+        node-version: '20'  # Puedes cambiar esto a la versión de Node.js que necesites
 
     - name: Deploy to Surge.sh
       env:
@@ -24,4 +24,4 @@ jobs:
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
       run: |
         npm install --global surge
-        surge ./dist https://1er-parcial.surge.sh
+        surge . https://1er-parcial.surge.sh
